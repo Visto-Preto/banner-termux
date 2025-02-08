@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+clear
+echo -e "\e[34mWelcone to termux!"
+echo -e "Version: \e[31m$TERMUX_APP__APP_VERSION_NAME\e[m"
+date +"%a %d/%m/%Y %H:%M" | lolcat
+echo ""
+figlet -f shadow  Termux | lolcat
+nome="Visto Preto"
+largura=$(tput cols)
+espacos=$(( largura - ${#nome} ))
+printf "%${espacos}s\e[31m%s\e[0m" "" "$nome"
