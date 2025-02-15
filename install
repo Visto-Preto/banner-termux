@@ -1,4 +1,5 @@
-apt install -y python figlet toilet ncurses-utils
+apt install -y python git figlet toilet ncurses-utils
 pip install lolcat
+gi clone https
 #!/usr/bin/bash
 echo "./.termux/banner" >> ~/.zshrc
