@@ -1,7 +1,7 @@
 apt install -y python git figlet toilet ncurses-utils
 pip install lolcat
-git clone https://github.com/Visto-Preto/banner-termux
-cp banner-termux/banner $home/.termux/
+git clone https://github.com/Visto-Preto/banner-termux $home/banner-termux
+cp $home/banner-termux/banner $home/.termux/
 rm -rf banner-termux
 echo "./.termux/banner" >> ~/.zshrc
 bash ./$home/.termux/banner
