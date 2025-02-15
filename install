@@ -1,2 +1,7 @@
+apt install -y python figlet toilet ncurses-utils
+pip install lolcat
 #!/usr/bin/bash
 echo "./.termux/banner" >> ~/.zshrc
+echo """
+
+"""
