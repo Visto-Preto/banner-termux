@@ -14,4 +14,4 @@ nome="Visto Preto"
 largura=$(tput cols)
 espacos=$(( largura - ${#nome} ))
 printf "%${espacos}s\e[31m%s\e[0m" "" "$nome"
-""" >>> $home/.termux/banner
+""" >> $home/.termux/banner
